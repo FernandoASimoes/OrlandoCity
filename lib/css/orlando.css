@@ -1,0 +1,459 @@
+@font-face {
+    font-family: 'Opensans';
+    src: url(/Site-Orlando-City/fonts/Open_Sans/OpenSans-Regular.ttf);
+    font-size: 1em;
+}
+
+@font-face {
+    font-family: 'Opensans-Light';
+    src: url(/Site-Orlando-City/fonts/Open_Sans/OpenSans-Light.ttf);
+    font-size: 1em;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    background-color: rgba(94, 41, 154, .8);  
+    z-index: 2;
+    position: relative;
+}
+
+header .container {
+    position: relative;  
+}
+
+header .header-black {
+    background-color: #000;
+    height: 40px;
+}
+
+header .header-black li {
+    background: url("../img/clubs.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 4px 3px;
+}
+
+#escudos {
+    margin-left: 120px;
+}
+
+header .header-black li.club-01 {
+    background-position: 0px 0px;
+}
+
+header .header-black li.club-03 {
+    background-position: -48px 0px;
+}
+
+header .header-black li.club-04 {
+    background-position: -95px 0px;
+}
+
+header .header-black li.club-05 {
+    background-position: -140px 0px;
+}
+
+header .header-black li.club-06 {
+    background-position: -189px 0px;
+}
+
+header .header-black li.club-07 {
+    background-position: -239px 0px;
+}
+
+header .header-black li.club-08 {
+    background-position: -288px 0px;
+}
+
+header .header-black li.club-09 {
+    background-position: -338px 0px;
+}
+
+header .header-black li.club-10 {
+    background-position: -382px 0px;
+}
+
+header .header-black li.club-11 {
+    background-position: -430px 0px;
+}
+
+header .header-black li.club-12 {
+    background-position: -480px 0px;
+}
+
+header .header-black li.club-13 {
+    background-position: -530px 0px;
+}
+
+header .header-black li.club-14 {
+    background-position: -579px 0px;
+}
+
+header .header-black li.club-15 {
+    background-position: -630px 0px;
+}
+
+header .header-black li.club-16 {
+    background-position: -674px 0px;
+}
+
+header .header-black li.club-17 {
+    background-position: -721px 0px;
+}
+
+header .header-black li.club-18 {
+    background-position: -763px 0px;
+}
+
+header .header-black li.club-19 {
+    background-position: -808px 0px;
+}
+
+header .header-black li.club-20 {
+    background-position: -855px 0px;
+}
+
+header .header-black li.club-21 {
+    background-position: -906px 0px;
+}
+
+header .header-black li.club-22 {
+    background-position: -948px 0px;
+}
+
+header .header-black li.club-23 {
+    background-position: -998px 0px;
+}
+
+header .header-black li a {
+    width: 32px;
+    height: 32px;
+    display: block;
+}
+
+header #logotipo {
+    position: absolute;
+    top: 20px;
+}
+
+#menu {
+    margin-left: 500px;
+
+}
+
+#menu li {
+    display: inline-block;
+    font-family: "open-sans";
+    margin: 26px 0;
+}
+
+#menu input {
+ background-color: #3f1f64;
+ color: #fff;
+ border: none;
+ height: 30px;
+ line-height: 30px;
+}
+
+#menu li.search {
+    width: 182px;
+}
+
+#menu li.search input::-webkit-input-placeholder {
+    color: #fff;
+}
+
+#menu li.search button {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 3px;
+}
+
+#menu li.search button i {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+#menu li a {
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 25px;
+}
+
+#banner {
+    width: 100%;
+    height: 728px;
+    position: relative;
+    background-image: url("../img/banner.jpg");
+    top: -110px;
+    background-position: 0px -141px;
+}
+
+#banner h1 {
+    top: 300px;
+    position: relative;
+    font-size:  92px;
+    color: #fff;
+    text-shadow: 2px 2px rgba(0, 0, 0, .45);
+    font-family: 'Opensans-Light';
+    margin-left: 50px;
+}
+
+#banner h1 small {
+    font-size: 32px;
+    display: block;
+    color: #fff;
+    font-family: 'Opensans';
+    font-weight: bold;
+}
+
+#news {
+    position: relative;
+    top: -110px;
+}
+
+#news h2 {
+    color: #5e2799;
+    font-family: 'OpenSans-Light';
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 426px;
+    margin-top: 80px;
+}
+
+#news hr {
+    border: #fde192 solid 6px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+#news .thumbnails {
+    margin-top: 20px;
+}
+
+#news .thumbnails h3 {
+    color: #5e299a;
+    font-size: 18px;
+    font-family: 'OpenSans';
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#news .thumbnails time {
+    color: #a7a7a7;
+    font-size: 18px;
+    font-family: 'OpenSans';
+}
+
+#estatisticas {
+    background-color: #5e299a;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    margin-bottom: -80px;
+}
+
+#estatisticas p {
+    color: #fde092;
+    text-transform: uppercase;
+    font-family: 'OpenSans-Light';
+    font-size: 64px;
+}
+
+#estatisticas p small {
+    color: #fff;
+    font-size: 24px;
+    display: block;
+}
+
+.col-md-4 {
+    display: inline-block;
+    margin-left: -50px;
+    margin-top: 30px;
+}
+
+#call-to-acton h2 {
+    color: #5e2799;
+    font-family: 'OpenSans-Light';
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 120px;
+}
+
+#call-to-acton hr {
+    border: #fde192 solid 6px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+#call-to-acton p {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    color: #656565;
+}
+
+#call-to-acton h2 {
+    margin-top: 192px;
+}
+
+#call-to-acton .btn-roxo {
+    color: #fff;
+    background-color: #5e299a;
+    border-color: #5e2994;
+    min-width: 192px;
+    height: 44px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    border-radius: 0;
+}
+
+#call-to-acton .btn-amarelo {
+    color: #000;
+    background-color: #fde192;
+    border-color: #fde192;
+    min-width: 192px;
+    height: 44px;
+    margin-left: 116px;
+    line-height: 30px;
+    border-radius: 0;
+}
+
+#call-to-acton .row-max-400 {
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+footer {
+    margin-top: 110px;
+}
+
+footer .row {
+    width: 100%;
+    margin: 0 auto;
+    line-height: 60px;
+    margin-bottom: 0;
+}
+
+footer .row-cinza-claro {
+    height: 200px;
+    background-color: #171f26;
+}
+
+footer .row-cinza-escuro {
+    height: 60px;
+    background-color: #11171d;
+    border-top: 1px solid #242d37;
+}
+
+footer .pull-left {
+    font-family: 'OpenSans';
+    font-size: 14px;
+    color: #666;
+}
+
+footer .text-roxo {
+    color: #623291;
+    font-family: 'OpenSans';
+    font-weight: bold;
+    font-size: 14px;
+}
+
+footer .text-center {
+    margin-top: 25px;
+}
+
+footer .col-popular-post,
+footer .col-links,
+footer .col-get-in-touch {
+    margin-top: 40px;
+}
+
+footer .col-links .fa {
+    margin: 0 6px;
+}
+
+footer .col-position {
+    margin: 0 auto;
+    top: 20px;
+    padding-top: 13px;
+    position: relative;
+    line-height: 2;
+}
+footer .row-cols h4 {
+    font-family: 'OpenSans';
+    font-size: 16px;
+    color: #fff;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #242d37;
+}
+
+footer .row-cols h5 {
+    color: #666;
+    font-family: Arial;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+footer .row-cols time {
+    color: #fde092;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+footer a {
+    color: #fff;
+    list-style: none;
+}
+
+footer .col-get-in-touch address {
+    color: #666;
+    font-family: Arial;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+footer .col-get-in-touch address span {
+    display: inline-block;
+    line-height: 1.5;
+}
+
+footer .col-get-in-touch i {
+    color: #9b9b9b;
+    font-size: 20px;
+    margin: 0 6px;
+
+}
+
+footer .col-get-in-touch a {
+    color: #666;
+}
+
+footer .list-sociais {
+    margin-top: 4px;
+}
+
+footer .list-sociais li {
+    display: inline-block;
+}
+
+footer .list-sociais a {
+    display: block;
+    border:  #9b9b9b 1px solid;
+    width: 28px;
+    line-height: 28px;
+    border-radius: 14px;
+    text-align: center;
+    position: relative;
+    top: -15px;
+    margin-left: 10px;
+}
+
+footer .list-sociais i {
+    font-size:  16px;
+    margin: 7px auto;
+}
